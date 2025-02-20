@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Starty - Multipurpose HTML5 Tamplate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
+  <meta name="keywords" content="Startup, Business, Multi-uses, HTML, Clean, Modern, Creative" />
+  <meta name="author" content="Shreethemes" />
+  <meta name="email" content="shreethemes@gmail.com" />
+  <meta name="website" content="https://shreethemes.in/" />
+  <meta name="Version" content="v1.0.0" />
+  <!-- favicon -->
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com/" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/datepicker.min.css" rel="stylesheet" />
+  <link href="css/tobii.min.css" rel="stylesheet" />
+  <link href="css/tiny-slider.css" rel="stylesheet" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/animations-delay.css" rel="stylesheet" />
+  <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+  <link href="../../unicons.iconscout.com/release/v3.0.6/css/line.css" rel="stylesheet" />
+  <!-- Main Css -->
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+  <link href="css/demos/restaurant.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <!-- Whatsapp Plugin starts -->
+    <div class="whatsapp">
+      <a href="https://wa.me/919103797746?text=Hey.." target="_blank">
+        <img
+          src="Custom-images/whatsapp/whatsapp-logo.png"
+          width="55"
+          alt=""
+        />
+      </a>
+    </div>
+    <!-- whatsapp plugin ends -->
+
+
+  <!-- Navbar STart -->
+  <header id="topnav" class="defaultscroll sticky">
+    <div class="container">
+      <!-- Logo container-->
+      <a class="logo" href="index.html">
+        <img src="Custom-images/logo/logo.png" class="l-dark" height="70" alt="" />
+        <img src="Custom-images/logo/logo.png" class="l-light" height="70" alt="" />
+      </a>
+      <!-- End Logo container-->
+      <div class="menu-extras">
+        <div class="menu-item">
+          <!-- Mobile menu toggle-->
+          <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+            <div class="lines">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+          <!-- End mobile menu toggle-->
+        </div>
+      </div>
+
+      <ul class="buy-button list-inline mb-0">
+        <li class="list-inline-item search-icon mb-0">
+          <div class="dropdown">
+            <button type="button" class="btn btn-link text-decoration-none dropdown-toggle mb-0 p-0"
+              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="uil uil-search h5 text-dark nav-light-icon-dark mb-0"></i>
+              <i class="uil uil-search h5 text-white nav-light-icon-white mb-0"></i>
+            </button>
+            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-4 py-0"
+              style="width: 300px">
+              <form class="p-4">
+                <input type="text" id="text" name="name" class="form-control border bg-white" placeholder="Search..." />
+              </form>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div id="navigation">
+        <!-- Navigation Menu-->
+        <ul class="navigation-menu nav-light">
+          <li>
+            <a href="index.html" class="sub-menu-item">Home</a>
+          </li>
+          <li>
+            <a href="aboutus.html" class="sub-menu-item">About us</a>
+          </li>
+          <li>
+            <a href="services.html" class="sub-menu-item">Services</a>
+          </li>
+          <li>
+            <a href="gallery.html" class="sub-menu-item">Gallery</a>
+          </li>
+          <li>
+            <a href="contact.html" class="sub-menu-item">Contact us</a>
+          </li>
+        </ul>
+        <!--end navigation menu-->
+      </div>
+      <!--end navigation-->
+    </div>
+    <!--end container-->
+  </header>
+  <!--end header-->
+  <!-- Navbar End -->
+
+  <!-- Hero Start -->
+  <section class="home-slider position-relative" id="home">
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <div class="bg-home d-flex align-items-center"
+            style="background: url('Custom-images/Slider/2.jpg') center center;background-size: cover;">
+            <div class="bg-overlay bg-linear-gradient"></div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                  <div class="title-heading mt-4">
+                    <h5 class="text-light para-dark animated fadeInDownBig animation-delay-1">
+                      Welcome To
+                    </h5>
+                    <h1
+                      class="display-1 fw-semibold text-uppercase mb-3 text-white text-shadow-dark-lg title-dark animated fadeInUpBig animation-delay-3">
+                      GHOUS-E-AZAM Tour & Travels
+                    </h1>
+                    <p class="para-desc text-white-50 para-dark mx-auto animated fadeInUpBig animation-delay-5">
+                      Travel With Us and Feel The Difference
+                    </p>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+            <!--end container-->
+          </div>
+          <!--end slide-->
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <div class="bg-home d-flex align-items-center"
+            style="background: url('Custom-images/Slider/1.jpg') center center;">
+            <div class="bg-overlay bg-linear-gradient"></div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                  <div class="title-heading mt-4">
+                    <h5 class="text-light para-dark animated fadeInDownBig animation-delay-1">
+                      The Most Beautiful Place
+                    </h5>
+                    <h1
+                      class="display-1 fw-semibold text-uppercase mb-3 text-white text-shadow-dark-lg title-dark animated fadeInUpBig animation-delay-3">
+                      Visit Kashmir
+                    </h1>
+                    <p class="para-desc text-white-50 para-dark mx-auto animated fadeInUpBig animation-delay-5">
+                      With us
+                    </p>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+            <!--end container-->
+          </div>
+          <!--end slide-->
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <div class="bg-home d-flex align-items-center"
+            style="background: url('Custom-images/Slider/3.jpg') center center;background-size: cover;">
+            <div class="bg-overlay bg-linear-gradient"></div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                  <div class="title-heading mt-4">
+                    <h5 class="text-light para-dark animated fadeInDownBig animation-delay-1">
+                      Experience Kashmir With Us
+                    </h5>
+                    <h1
+                      class="display-1 fw-semibold text-uppercase mb-3 text-white text-shadow-dark-lg title-dark animated fadeInUpBig animation-delay-3">
+                      GHOUS-E-AZAM
+                    </h1>
+                    <p class="para-desc text-white-50 para-dark mx-auto animated fadeInUpBig animation-delay-5">
+                      Tour & Travels
+                    </p>
+                    <div class="mt-4 pt-2 animated fadeInUpBig animation-delay-7">
+                      <a href="aboutus.html"
+                        class="btn btn-font-sm btn-pills-0 btn-lg btn-light text-uppercase mt-2">Learn more</a>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+            <!--end container-->
+          </div>
+          <!--end slide-->
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </section>
+  <!--end section-->
+  <!-- Hero End -->
+
+  <section class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 col-md-6">
+          <img src="Custom-images/about/about.webp" class="img-fluid rounded shadow" alt="" />
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-7 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+          <div class="section-title ms-lg-5">
+            <h4 class="title mb-3">About Us – GHOUS-E-AZAM Tour and Travels</h4>
+            <p class="text-muted">
+              At GHOUS-E-AZAM Tour and Travels, we specialize in providing unforgettable travel experiences across the
+              breathtaking landscapes of Kashmir. Whether you're looking for adventure, relaxation, or spiritual
+              journeys, we offer tailored tour packages, comfortable accommodations, and seamless travel arrangements.
+              With a deep understanding of the region and a commitment to excellent service, we ensure that your trip is
+              filled with beauty, comfort, and cherished memories. Let us be your guide to the paradise that is Kashmir!
+            </p>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-0">
+                <span class="text-dark h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Scenic & Well-Planned Tours
+              </li>
+              <li class="mb-0">
+                <span class="text-dark h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Experienced & Professional Team
+              </li>
+              <li class="mb-0">
+                <span class="text-dark h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Unmatched Hospitality & Comfort
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+
+    <!--end container-->
+
+    <div class="container mt-100 mt-60">
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="tiny-single-item">
+            <div class="tiny-slide px-md-5">
+              <div class="card client-testi text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" class="avatar avatar-small rounded-pill mx-auto" alt="" />
+
+                <div class="card-body pb-0 content">
+                  <p class="h5 fw-normal text-muted fst-italic">
+                    " GHOUS-E-AZAM Tour and Travels made my Kashmir trip truly unforgettable! From breathtaking landscapes to smooth travel arrangements, everything was perfect. Highly recommended! "
+                  </p>
+
+                  <div class="name mt-4">
+                    <small class="text-uppercase fw-semibold d-block">Aisha Mir </small>
+                    <small class="text-muted">Travel Blogger</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tiny-slide px-md-5">
+              <div class="card client-testi text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" class="avatar avatar-small rounded-pill mx-auto" alt="" />
+
+                <div class="card-body pb-0 content">
+                  <p class="h5 fw-normal text-muted fst-italic">
+                    " I had the best experience exploring Kashmir with my family. The team ensured everything was well-organized, from hotels to sightseeing. A hassle-free and amazing trip! "
+                  </p>
+
+                  <div class="name mt-4">
+                    <small class="text-uppercase fw-semibold d-block">Rahul Sharma</small>
+                    <small class="text-muted">Corporate Professional</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tiny-slide px-md-5">
+              <div class="card client-testi text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" class="avatar avatar-small rounded-pill mx-auto" alt="" />
+
+                <div class="card-body pb-0 content">
+                  <p class="h5 fw-normal text-muted fst-italic">
+                    " Our honeymoon in Kashmir was a dream come true, thanks to GHOUS-E-AZAM Tour and Travels! Beautiful locations, cozy accommodations, and great hospitality! "
+                  </p>
+
+                  <div class="name mt-4">
+                    <small class="text-uppercase fw-semibold d-block">Sana & Imran Khan </small>
+                    <small class="text-muted">Honeymoon Couple</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+
+  <!-- Gallery starts -->
+
+
+  <!-- Start -->
+
+  <section class="section" style="padding: 0px!important;">
+    <div class="section-title mb-4 pb-2 text-center">
+      <h6 class="text-primary">Take a look at some Popular Destinations</h6>
+      <h4 class="title text-uppercase fw-bold mb-4">
+        Gallery
+      </h4>
+
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="filters-group-wrap text-center">
+            <div class="filters-group">
+              <ul class="container-filter mb-0 categories-filter list-unstyled filter-options">
+                <li class="list-inline-item categories position-relative active" data-group="all">
+                  All
+                </li>
+                <li class="list-inline-item categories position-relative" data-group="srinagar">
+                  Srinagar
+                </li>
+                <li class="list-inline-item categories position-relative" data-group="pahalgam">
+                  Pahalgam
+                </li>
+                <li class="list-inline-item categories position-relative" data-group="gulmarg">
+                  Gulmarg
+                </li>
+                <li class="list-inline-item categories position-relative" data-group="sonmarg">
+                  Sonmarg
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+
+      <div id="grid" class="row mt-4">
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["srinagar"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/srinagar/srinagar-1.jpg" class="lightbox">
+              <img src="Custom-images/gallery/srinagar/srinagar-1.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Venice of the East</a>
+              <small class="text-muted fw-normal mb-0">Srinagar</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["pahalgam"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/pahalgam/pahalgam-1.jpg" class="lightbox">
+              <img src="Custom-images/gallery/pahalgam/pahalgam-1.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Valley of Shepherds</a>
+              <small class="text-muted fw-normal mb-0">Pahalgam</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["sonmarg"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/sonmarg/sonmarg-1.jpg" class="lightbox">
+              <img src="Custom-images/gallery/sonmarg/sonmarg-1.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Meadow of Gold</a>
+              <small class="text-muted fw-normal mb-0">Sonmarg</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["gulmarg"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/gulmarg/Gulmarg-1.jpg" class="lightbox">
+              <img src="Custom-images/gallery/gulmarg/Gulmarg-1.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Meadow of Flowers</a>
+              <small class="text-muted fw-normal mb-0">Gulmarg</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["gulmarg"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/gulmarg/Gulmarg-2.webp" class="lightbox">
+              <img src="Custom-images/gallery/gulmarg/Gulmarg-2.webp" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Meadow of Flowers</a>
+              <small class="text-muted fw-normal mb-0">Gulmarg</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["sonmarg"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/sonmarg/sonmarg-3.jpg" class="lightbox">
+              <img src="Custom-images/gallery/sonmarg/sonmarg-3.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Meadow of Gold</a>
+              <small class="text-muted fw-normal mb-0">Sonmarg</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["srinagar"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/srinagar/srinagar-2.jpg" class="lightbox">
+              <img src="Custom-images/gallery/srinagar/srinagar-2.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Venice of the East</a>
+              <small class="text-muted fw-normal mb-0">Srinagar</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["pahalgam"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/pahalgam/pahalgam-3.jpg" class="lightbox">
+              <img src="Custom-images/gallery/pahalgam/pahalgam-3.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Valley of Shepherds</a>
+              <small class="text-muted fw-normal mb-0">Pahalgam</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+
+        <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["srinagar"]'>
+          <div class="card portfolio portfolio-modern portfolio-primary rounded overflow-hidden">
+            <a href="Custom-images/gallery/srinagar/srinagar-3.jpg" class="lightbox">
+              <img src="Custom-images/gallery/srinagar/srinagar-3.jpg" class="img-fluid" alt="" />
+            </a>
+            <div class="content text-center p-3">
+              <a href="portfolio-detail-three.html" class="text-dark h6 mb-0 d-block title">Venice of the East</a>
+              <small class="text-muted fw-normal mb-0">Srinagar</small>
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+  <!--end section-->
+
+  <!-- End Gallery -->
+
+  <!-- Start Services -->
+   <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="section-title mb-4 pb-2 text-center">
+            <h6 class="text-primary">Services</h6>
+            <h4 class="title text-uppercase fw-bold mb-4">
+              What We Provide
+            </h4>
+            <p class="text-muted mx-auto para-desc mb-0">
+             What we Promise
+            </p>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="tiny-three-item">
+              <div class="tiny-slide">
+                <div class="card features features-modern feature-primary m-2">
+                  <div class="card-img position-relative overflow-hidden">
+                    <img
+                      src="images/blog/05.jpg"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded"></div>
+                  </div>
+
+                  <div class="px-2 pt-4">
+                    <a
+                      href="page-single-service.html"
+                      class="title text-dark h5"
+                      >Our Vision</a
+                    >
+
+                    <p class="text-muted mt-2 mb-0">
+                      To be the leading travel agency in Kashmir, providing
+                      exceptional and memorable travel experiences while
+                      promoting the beauty, culture, and hospitality of the
+                      region to the world.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tiny-slide">
+                <div class="card features features-modern feature-primary m-2">
+                  <div class="card-img position-relative overflow-hidden">
+                    <img
+                      src="images/blog/06.jpg"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded"></div>
+                  </div>
+
+                  <div class="px-2 pt-4">
+                    <a
+                      href="page-single-service.html"
+                      class="title text-dark h5"
+                      >Our Mission</a
+                    >
+
+                    <p class="text-muted mt-2 mb-0">
+                      t GHOUS-E-AZAM Tour and Travels, our mission is to offer
+                      seamless, comfortable, and personalized travel
+                      experiences. We strive to provide top-quality services,
+                      from guided tours to customized itineraries.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tiny-slide">
+                <div class="card features features-modern feature-primary m-2">
+                  <div class="card-img position-relative overflow-hidden">
+                    <img
+                      src="images/blog/07.jpg"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded"></div>
+                  </div>
+
+                  <div class="px-2 pt-4">
+                    <a
+                      href="page-single-service.html"
+                      class="title text-dark h5"
+                      >Our Values</a
+                    >
+
+                    <p class="text-muted mt-2 mb-0">
+                      We believe in honesty, customer satisfaction, and
+                      responsible tourism. Our goal is to provide safe,
+                      comfortable, and memorable travel experiences while
+                      preserving Kashmir’s natural beauty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tiny-slide">
+                <div class="card features features-modern feature-primary m-2">
+                  <div class="card-img position-relative overflow-hidden">
+                    <img
+                      src="images/blog/08.jpg"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded"></div>
+                  </div>
+
+                  <div class="px-2 pt-4">
+                    <a
+                      href="page-single-service.html"
+                      class="title text-dark h5"
+                      >Our Commitment</a
+                    >
+
+                    <p class="text-muted mt-2 mb-0">
+                      We are committed to delivering seamless travel services,
+                      personalized itineraries, and top-notch hospitality,
+                      ensuring every journey with us is stress-free and
+                      enjoyable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tiny-slide">
+                <div class="card features features-modern feature-primary m-2">
+                  <div class="card-img position-relative overflow-hidden">
+                    <img
+                      src="images/blog/09.jpg"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded"></div>
+                  </div>
+
+                  <div class="px-2 pt-4">
+                    <a
+                      href="page-single-service.html"
+                      class="title text-dark h5"
+                      >Our Goal</a
+                    >
+
+                    <p class="text-muted mt-2 mb-0">
+                      To make travel in Kashmir effortless and enjoyable by
+                      offering well-planned tours, exceptional service, and
+                      unforgettable experiences that showcase the region’s true
+                      beauty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <div class="container mt-100 mt-60">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="features feature-primary border-0 d-flex">
+              <div class="fea-icon rounded-circle text-white">
+                <i class="uil uil-airplay"></i>
+              </div>
+
+              <div class="content flex-1 ms-3">
+                <a href="page-single-service.html" class="title h5 text-dark"
+                  >Tour Packages</a
+                >
+                <p class="text-muted mt-2">
+                  We have customized the best tour packages to give you an
+                  experience to remember for lifetime.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-4 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+            <div class="features feature-success border-0 d-flex">
+              <div class="fea-icon rounded-circle text-white">
+                <i class="uil uil-eye"></i>
+              </div>
+
+              <div class="content flex-1 ms-3">
+                <a href="page-single-service.html" class="title h5 text-dark"
+                  >Houseboat Booking</a
+                >
+                <p class="text-muted mt-2">
+                  Stay calm and book your houseboat in Kashmir with us in just
+                  few minutes. We have the best offers to make your stay
+                  memorable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-4 col-md-6 mt-4 pt-2 mt-lg-0 pt-lg-0">
+            <div class="features feature-danger border-0 d-flex">
+              <div class="fea-icon rounded-circle text-white">
+                <i class="uil uil-tachometer-fast-alt"></i>
+              </div>
+
+              <div class="content flex-1 ms-3">
+                <a href="page-single-service.html" class="title h5 text-dark"
+                  >Hotel Booking</a
+                >
+                <p class="text-muted mt-2">
+                  Stay calm and book your hotel in Kashmir with us in just few
+                  minutes. We have the best offers to make your stay memorable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-4 col-md-6 mt-4 pt-2">
+            <div class="features feature-info border-0 d-flex">
+              <div class="fea-icon rounded-circle text-white">
+                <i class="uil uil-palette"></i>
+              </div>
+
+              <div class="content flex-1 ms-3">
+                <a href="page-single-service.html" class="title h5 text-dark"
+                  >Car Rental</a
+                >
+                <p class="text-muted mt-2">
+                  We have the best car rental services for our visitors to make
+                  their journey hassle free.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-4 col-md-6 mt-4 pt-2">
+            <div class="features feature-warning border-0 d-flex">
+              <div class="fea-icon rounded-circle text-white">
+                <i class="uil uil-font"></i>
+              </div>
+
+              <div class="content flex-1 ms-3">
+                <a href="page-single-service.html" class="title h5 text-dark"
+                  >Tour Guide</a
+                >
+                <p class="text-muted mt-2">
+                  We have the best tour guide services for our visitors to make
+                  their journey hassle free.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-lg-4 col-md-6 mt-4 pt-2">
+            <div class="features feature-secondary border-0 d-flex">
+              <div class="fea-icon rounded-circle text-white">
+                <i class="uil uil-file-upload-alt"></i>
+              </div>
+
+              <div class="content flex-1 ms-3">
+                <a href="page-single-service.html" class="title h5 text-dark"
+                  >Ticket Booking</a
+                >
+                <p class="text-muted mt-2">
+                  Stay calm and book your flight tickets with us in just few
+                  minutes
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+  <!--end section-->
+  <!-- End Services -->
+
+  <!-- Footer Start -->
+  <footer class="footer bg-footer" style="background: url('Custom-images/Slider/1.jpg') center center"
+    data-jarallax='{"speed": 1.3}'>
+    <div class="bg-overlay k"></div>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-12">
+          <div class="footer-py-60">
+            <div class="row justify-content-center">
+              <div class="col-12 text-center">
+                <a href="#"><img src="Custom-images/logo/logo.png" height="200" alt="" /></a>
+
+                <div class="content mt-4 pt-2">
+                  <h4 class="text-white text-uppercase mb-3">
+                    GHOUS-E-AZAM Tour & Travels
+                  </h4>
+                  <p class="mb-2 text-white">
+                    Karanagar, Near Public Park <br />Srinagar, Kashmir, 190010
+                  </p>
+                  <p class="mb-2 text-white">Open: 10:00 AM – 04:00 PM</p>
+
+                  <ul class="list-unstyled footer-list mb-0">
+                    <li class="list-inline-item mx-2">
+                      <a href="tel:+152534-468-854" class="text-foot text-white">+91 9103797746</a>
+                    </li>
+                    <li class="list-inline-item mx-2">
+                      <a href="mailto:contact@example.com" class="text-foot text-white">gouseazam.321@gmail.com</a>
+                    </li>
+                  </ul>
+
+                  <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                    <li class="list-inline-item">
+                      <a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
+                          class="fea icon-sm fea-social"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="javascript:void(0)" class="rounded"><i data-feather="instagram"
+                          class="fea icon-sm fea-social"></i></a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+              </div>
+              <!--end col-->
+            </div>
+            <!--end row-->
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+
+    <!-- Footer Start -->
+    <footer class="footer bg-footer">
+      <div class="footer-py-30 footer-bar bg-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="text-center">
+                <p class="mb-0 text-muted">
+                  © Ghouseazam Tour and Travels
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                </p>
+              </div>
+            </div>
+            <!--end col-->
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </div>
+    </footer>
+    <!--end footer-->
+    <!-- End -->
+  </footer>
+  <!--end footer-->
+  <!-- End -->
+
+  <!-- Back to top -->
+  <a href="javascript:void(0)" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill"><i
+      class="mdi mdi-arrow-up"></i></a>
+  <!-- Back to top -->
+
+  <!-- javascript -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/datepicker.min.js"></script>
+  <script src="js/shuffle.min.js"></script>
+  <script src="js/tobii.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/feather.min.js"></script>
+  <!-- Main Js -->
+  <script src="js/plugins.init.js"></script>
+  <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+  <script src="js/app.js"></script>
+  <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+</body>
+
+</html>
